@@ -1,0 +1,42 @@
+{
+  "name": "sage-clockwork",
+  "version": "0.1.0",
+  "description": "座钟 — DSH 会话头部的时间模块：现在时间 / 距上次发言 / 闹钟 / 倒计时（纯 client 半，闹钟数据存浏览器本地）",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "react": "^18.0.0"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "clock",
+    "alarm",
+    "timer"
+  ]
+}

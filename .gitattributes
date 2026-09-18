@@ -1,0 +1,3 @@
+# 仓库内一律 LF。Windows 上 core.autocrlf=true 会把 checkout 出来又提交回去的文件
+# 变成 CRLF，导致整个文件看起来"全改了"——对 diff / PR 都是灾难。
+* text=auto eol=lf

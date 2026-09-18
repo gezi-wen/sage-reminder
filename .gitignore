@@ -1,0 +1,4 @@
+node_modules/
+*.tgz
+patch-*.mjs
+.pnpm-store/
