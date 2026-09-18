@@ -31,6 +31,14 @@
   "devDependencies": {
     "react": "^18.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gezi-wen/sage-clockwork.git"
+  },
+  "homepage": "https://github.com/gezi-wen/sage-clockwork#readme",
+  "bugs": {
+    "url": "https://github.com/gezi-wen/sage-clockwork/issues"
+  },
   "keywords": [
     "dsh",
     "deepseek-harness",
