@@ -1,4 +1,4 @@
-# sage-clockwork（时间提醒）
+# sage-reminder（时间提醒）
 
 DSH 会话头部的一个时间模块：**现在时间 / 距你上次发消息 / 提醒 / 倒计时**。
 
@@ -62,9 +62,9 @@ DSH 会话头部的一个时间模块：**现在时间 / 距你上次发消息 /
 ```jsonc
 // profile 的 package.json
 "dependencies": {
-  "sage-clockwork": "link:<你的路径>/sage-clockwork"   // 本地目录用 link:，发布版写版本号
+  "sage-reminder": "link:<你的路径>/sage-reminder"   // 本地目录用 link:，发布版写版本号
 },
-"dsh": { "profile": { "bundles": [ ..., "sage-clockwork" ] } }
+"dsh": { "profile": { "bundles": [ ..., "sage-reminder" ] } }
 ```
 
 然后在该 profile 目录跑 `pnpm install`，重启（或刷新页面）。
