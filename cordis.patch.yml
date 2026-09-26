@@ -1,7 +1,7 @@
-# sage-reminder bundle patch — 把「时间提醒」挂进 profile 组合树。
+# dsh-reminder bundle patch — 把「时间提醒」挂进 profile 组合树。
 #
 # 纯 client 半插件（dsh.client.platform = web）：host 半没有服务要注册，
 # 浏览器半自带 ModuleLoader bundle，由 client 模块系统按 dsh.client 清单拾取。
 - insert:
-    - id: sage-reminder
-      name: 'sage-reminder'
+    - id: dsh-reminder
+      name: '@gezi-wen/dsh-reminder'
