@@ -1,6 +1,6 @@
 {
   "name": "sage-reminder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "时间提醒（reminder）— DSH 会话头部的时间模块：现在时间 / 距上次发言 / 提醒 / 倒计时。定位是会话内的短期提醒（纯 client 半，数据存浏览器本地）",
   "type": "module",
   "main": "lib/index.js",
@@ -42,12 +42,19 @@
   },
   "keywords": [
     "dsh",
+    "dsh-plugin",
+    "deepseek",
     "deepseek-harness",
+    "cordis",
     "plugin",
+    "web-ui",
+    "header-widget",
     "clock",
     "reminder",
     "alarm",
     "countdown",
-    "timer"
+    "timer",
+    "session-timer",
+    "time-tracking"
   ]
 }
