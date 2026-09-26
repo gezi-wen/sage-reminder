@@ -1,5 +1,5 @@
 /**
- * dsh-reminder — client factory 冒烟测试（Node 侧模拟 ModuleLoader）。
+ * sage-reminder — client factory 冒烟测试（Node 侧模拟 ModuleLoader）。
  *
  * 与 sage-livingroom / dsh-timeclock 同款：抓顶层异常、校验 exports 形态
  * （apply / inject），再用最小 mock ctx 走一遍 apply，确认槽位注册发生。

@@ -1,7 +1,7 @@
 {
-  "name": "@gezi-wen/dsh-reminder",
-  "version": "0.1.2",
-  "description": "Session time module for the DeepSeek Harness (dsh) web UI — current time, time since your last message, reminders and a countdown, sitting in the conversation header. Pure client-side plugin; state lives in browser local storage.",
+  "name": "sage-reminder",
+  "version": "0.1.1",
+  "description": "时间提醒（reminder）— DSH 会话头部的时间模块：现在时间 / 距上次发言 / 提醒 / 倒计时。定位是会话内的短期提醒（纯 client 半，数据存浏览器本地）",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -34,27 +34,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gezi-wen/dsh-reminder.git"
+    "url": "git+https://github.com/gezi-wen/sage-reminder.git"
   },
-  "homepage": "https://github.com/gezi-wen/dsh-reminder#readme",
+  "homepage": "https://github.com/gezi-wen/sage-reminder#readme",
   "bugs": {
-    "url": "https://github.com/gezi-wen/dsh-reminder/issues"
+    "url": "https://github.com/gezi-wen/sage-reminder/issues"
   },
   "keywords": [
     "dsh",
-    "dsh-plugin",
-    "deepseek",
     "deepseek-harness",
-    "cordis",
     "plugin",
-    "web-ui",
-    "header-widget",
     "clock",
     "reminder",
     "alarm",
     "countdown",
-    "timer",
-    "session-timer",
-    "time-tracking"
+    "timer"
   ]
 }
